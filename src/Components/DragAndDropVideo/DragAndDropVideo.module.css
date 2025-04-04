@@ -1,0 +1,91 @@
+
+
+.dragFile {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.dragFileInner {
+    width: 100% !important;
+    height: 100% !important;
+    border: 2px dashed #afafaf;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        /* Starting position */
+    }
+
+    30% {
+        transform: translateY(10px);
+        /* Move down */
+    }
+
+    90% {
+        transform: translateY(-100px);
+        /* Move up slightly */
+    }
+
+    100% {
+        display: none;
+    }
+}
+
+
+.iconRound {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    font-size: 120px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+.activateBGAnimation {
+    background: url('../../assets/UploadBg.svg') no-repeat center center;
+    background-size: cover;
+    animation: backgroundMove 0.5s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+.activateArrowAnimation {
+    animation: bounce 0.6s ease-in-out;
+}
+
+
+.arrow {
+    color: #000;
+    border: none;
+    outline: none;
+}
+
+.h1Title {
+    font-size: x-large;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.pStyle {
+    font-size: small;
+    margin-top: 5px;
+}

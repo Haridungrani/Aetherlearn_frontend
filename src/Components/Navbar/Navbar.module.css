@@ -1,0 +1,57 @@
+.navbarContainer {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.leftPart {
+    height: 70%;
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rightPart {
+    height: 70%;
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hamburgerIcon {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.hamburgerIcon:hover {
+    background-color: rgb(236, 234, 234);
+}
+
+.leftPart img {
+    height: 80%;
+    width: auto;
+}
+
+.temp {
+    height: 100%;
+    width: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.temp img {
+    height: 80%;
+    width: auto;
+}

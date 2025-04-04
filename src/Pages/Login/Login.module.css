@@ -1,0 +1,156 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.formContainer {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContainer {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    border-left: 1px solid gray;
+
+}
+
+.logoBox {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    left: -23px;
+    transform: translateY(-50%);
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logoBox img {
+    height: auto;
+    width: 280px;
+}
+
+.form {
+    width: 38%;
+    /* height: 80%; */
+    height: fit-content;
+    max-width: 500px;
+}
+
+.accoutBtnContainer {
+    width: 100%;
+    height: 10%;
+    margin: 20px 0;
+}
+
+.btnBox {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cfcdcd;
+    border-radius: 150px;
+    padding: 7px;
+
+}
+
+.btnBox button {
+    width: 48%;
+    padding: 8px;
+    border-radius: 150px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#actaviBtn {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.fieldContainer {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.fieldContainer p {
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-size: medium;
+}
+
+.fieldContainer input {
+    outline: none;
+    border: 1px solid #cfcdcd;
+    /* background-color: #f0f0f0; */
+    border-radius: 3px;
+    padding: 6px;
+    width: 100%;
+}
+
+.fieldContainer input:focus {
+    border: 1px solid black;
+}
+
+.btnContainer {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.btnContainer button {
+    width: 100%;
+    padding: 8px;
+    background-color: #111111;
+    border: none;
+    outline: none;
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.otpContainer {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.otpContainer p {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.otpFields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.otpFields input {
+    outline: none;
+    border: 1px solid #cfcdcd;
+    border-radius: 3px;
+    padding: 10px;
+    width: 50px; /* Adjust width as needed */
+    text-align: center;
+    font-size: large;
+}
+
+.otpFields input:focus {
+    border: 1px solid black;
+}

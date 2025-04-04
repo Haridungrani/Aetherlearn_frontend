@@ -1,0 +1,67 @@
+.container {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.filedContainer {
+    width: 99%;
+    padding: 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.filedContainer label {
+    font-size: 11px;
+    color: rgb(94, 93, 93);
+}
+
+.filedContainer p {
+    font-size: small;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.filedContainer2 {
+    width: 99%;
+    height: 45%;
+    padding: 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.filedContainer2 label {
+    font-size: 11px;
+    color: rgb(94, 93, 93);
+}
+
+.filedContainer2 p {
+    font-size: small;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3px 0 3px;
+}
+
+.titleContainer button {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 5px 12px;
+    border-radius: 500px;
+    background-color: rgb(26, 115, 232);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}

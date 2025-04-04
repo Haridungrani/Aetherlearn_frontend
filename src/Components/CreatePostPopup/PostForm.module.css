@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.textAreaaContiner {
+    width: 100%;
+    height: 80%;
+    margin-top: 15px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 99, 99);
+}
+
+
+.textAreaaContiner:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.textAreaaContiner label {
+    height: max-content;
+    font-size: small;
+    color: #292929c3;
+    margin: 0;
+    padding: 0;
+}
+
+.textAreaaContiner textarea {
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: small;
+    padding: 1px;
+    resize: none;
+}
+
+.textAreaaContiner:focus-within {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.btnContaienr {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 4px 15px 15px;
+    margin-top: 20px;
+}
+
+.btnContaienr button {
+    cursor: pointer;
+}
+
+.primary {
+    width: 75px;
+    border: none;
+    outline: none;
+    color: #fff;
+    aspect-ratio: 6/3;
+    border-radius: 100px;
+    background-color: #185ABC;
+    font-weight: 400;
+    font-size: small;
+}
+
+.secondry {
+    width: 75px;
+    aspect-ratio: 6/3;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 100px;
+    font-size: small;
+}
+.error{
+    font-size: smaller;
+    padding-left: 3px;
+    color: red;
+}
+
+.textEditor{
+    height: 70%;
+}

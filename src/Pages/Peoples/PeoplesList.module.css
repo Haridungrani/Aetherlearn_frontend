@@ -1,0 +1,20 @@
+/* PeoplesList.module.css */
+.container {
+    margin-top: 20px;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 20px;
+  }
+  
+  .listWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

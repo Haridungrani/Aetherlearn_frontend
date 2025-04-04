@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cardContainer {
+    position: relative;
+    width: 350px;
+    aspect-ratio: 8 / 4;
+    border: 0.2px solid rgba(128, 128, 128, 0.416);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.074) 0px 1px 2px;
+    overflow: hidden;
+}
+
+.cardContainer img {
+    width: auto;
+    height: 100%;
+}
+
+.cardContainer .absoluteOverlay {
+    background-color: rgba(0, 0, 0, 0.46);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    padding: 10px;
+}
+
+.cardContainer .absoluteOverlay h1 {
+    margin-bottom: 15px;
+    font-size: X-large;
+}
+
+.cardContainer .absoluteOverlay .text {
+    font-weight: 400;
+    font-size: small;
+}
+
+.description {
+    font-weight: 200;
+    font-size: small;
+    margin-top: 15px;
+}
+
+.cardContainer:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+}

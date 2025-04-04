@@ -1,0 +1,11 @@
+.conatiner{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.outletFix{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

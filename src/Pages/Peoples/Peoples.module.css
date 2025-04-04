@@ -1,0 +1,21 @@
+/* Peoples.module.css */
+.container {
+    width: 70%;
+    margin-bottom: 100px;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: x-large;
+  }
+  
+  .titleContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+  }
+  
+  

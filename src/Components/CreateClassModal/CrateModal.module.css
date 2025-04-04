@@ -1,0 +1,82 @@
+.fullBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.478);
+}
+
+.modalBox{
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h3{
+    font-weight: 500;
+}
+
+.extraBox{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+
+.fieldContainer {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.fieldContainer p {
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-size: medium;
+}
+
+.fieldContainer input {
+    outline: none;
+    border: 1px solid #cfcdcd;
+    /* background-color: #f0f0f0; */
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+}
+
+.fieldContainer input:focus {
+    border: 1px solid black;
+}
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.btnContainer button{
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.showCode{
+    font-size: xx-large;
+    text-align: center;
+    color: #0056B3;
+}

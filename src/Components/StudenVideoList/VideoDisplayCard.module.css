@@ -1,0 +1,98 @@
+.videoContainer {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px, rgba(0, 0, 0, 0.12) 0px 1px 2px;
+}
+
+.uploaderDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detailsWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #1967d2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+.names {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 11px;
+}
+
+.optionContaienr {
+    margin-right: 20px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.videoDisplay {
+    height: 10vh;
+    width: 40%;
+    font-size: 14px;
+    margin-top: 15px;
+    
+    /* border-radius: 6px;
+    border: 1px solid #c7c7c7c7; */
+
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 3px, rgba(0, 0, 0, 0.06) 0px 1px 2px;
+
+    display: flex;
+    align-items: center;
+}
+
+.videoDisplay .imgConatiner {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    justify-content: center;
+    border-right: 1px solid #c7c7c7c7;
+}
+
+.postContent {
+    padding-left: 10px;
+}
+
+.cotentType {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #292929;
+}
+
+.decriptionBox {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.LinkStyle{
+    text-decoration: none;
+    color: black;
+}

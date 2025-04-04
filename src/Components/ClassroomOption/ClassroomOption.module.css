@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    z-index: 0 !important;
+}
+
+.textContainer{
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .textContainer{
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 50px;
+    gap: 50px;
+} */
+
+
+.inactive{
+    width: max-content;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.active{
+    border-bottom: 3px solid rgb(8, 8, 142);
+    text-decoration: none;
+    color:rgb(8, 8, 142);
+    font-size: small;
+}
+
+.textContainer2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 50px;
+    gap: 50px;
+}
+
+.classNameContainer{
+    width:30%;
+}
+
+.mainWrapper{
+    width: 100vw;
+    height: 100%;
+}
+
+.classNameContainer2{
+    width:30%;
+}
