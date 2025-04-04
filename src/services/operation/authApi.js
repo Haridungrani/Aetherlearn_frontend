@@ -9,7 +9,7 @@ export function sendOtp(email, navigate) {
       const toastId = toast.loading("Loading...")
       dispatch(setLoading(true))
       try {
-        const response = await apiConnector("POST", 'http://localhost:4000/api/v1/auth/sendotp', {email, checkUserPresent: true,})
+        const response = await apiConnector("POST", 'http://54.162.255.116/api/v1/auth/sendotp', {email, checkUserPresent: true,})
         if(!response.data.success) {
             throw new Error(response.data.message)
           }
@@ -31,7 +31,7 @@ export function signUp(accountType,  firstName, lastName, email, password, confi
     dispatch(setLoading(true))
     try {
         otp = otp.join('');
-       const response = await apiConnector("POST", 'http://localhost:4000/api/v1/auth/signup', {accountType,  firstName, lastName, email, password,confirmPassword,  otp})
+       const response = await apiConnector("POST", 'http://54.162.255.116/api/v1/auth/signup', {accountType,  firstName, lastName, email, password,confirmPassword,  otp})
        
         if(!response.data.success){
           
@@ -55,7 +55,7 @@ export  function login(email,password,navigate){
     const toastId = toast.loading("Loading...")
     dispatch(setLoading(true))
     try {
-      const response = await apiConnector("POST", 'http://localhost:4000/api/v1/auth/login', {email, password,})
+      const response = await apiConnector("POST", 'http://54.162.255.116/api/v1/auth/login', {email, password,})
       console.log("LOGIN API RESPONSE............", response)
 
       if(!response.data.success) {
