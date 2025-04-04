@@ -1,4 +1,4 @@
-const BASE_URL = "http://54.162.255.116/"
+const BASE_URL = "http://54.162.255.116"
 
 export const endpoints = {
     SENDOTP_API: BASE_URL + "/api/v1/auth/sendotp",
