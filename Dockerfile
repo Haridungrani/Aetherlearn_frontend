@@ -1,10 +1,12 @@
 # Step 1: Build Stage
-FROM node:18 AS build
+FROM node:18-alpine AS build
 WORKDIR /app
 
-# Copy package.json and install dependencies
+# Copy package.json and package-lock.json separately for better caching
 COPY package.json package-lock.json ./
-RUN npm ci
+
+# Install dependencies
+RUN npm ci --omit=dev
 
 # Copy the rest of the application files
 COPY . .
@@ -19,13 +21,13 @@ WORKDIR /usr/share/nginx/html
 # Remove default Nginx HTML files
 RUN rm -rf ./*
 
-# Copy the built files from the build stage
-COPY --from=build /app/dist /usr/share/nginx/html
+# Copy the built React files from the build stage
+COPY --from=build /app/dist ./
 
 # Copy Nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose port 80
+# Expose port 80 for serving the application
 EXPOSE 80
 
 # Start Nginx
