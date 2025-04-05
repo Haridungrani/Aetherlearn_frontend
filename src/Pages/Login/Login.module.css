@@ -27,7 +27,7 @@
     top: 50%;
     left: -23px;
     transform: translateY(-50%);
-    background-color: rgb(19, 2, 2);
+    background-color: white;
     display: flex;
     justify-content: start;
     align-items: center;
