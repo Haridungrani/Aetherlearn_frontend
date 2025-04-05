@@ -88,7 +88,7 @@ const Login = () => {
           </div>
 
           <div className={s.btnContainer}>
-            <button type="submit">Sign bhagu</button>
+            <button type="submit">22DIT013</button>
           </div>
         </form>
       </div>
