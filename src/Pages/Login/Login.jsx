@@ -59,7 +59,7 @@ const Login = () => {
       <div className={s.formContainer}>
         <form className={s.form} onSubmit={handleSubmit}>
           <h1>Sign in</h1>
-          <p>You don't have an account? <Link to="/signup" className='linkFix'>Sign Up</Link></p>
+          <p>You don't have an account? <Link to="/signup" className='linkFix'>Sign Upp</Link></p>
 
           <div className={s.fieldContainer}>
             <p>Email :</p>
